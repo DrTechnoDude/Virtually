@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="shortcut icon" type="x-icon" href="images/logo.png"
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Virtuallity</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="navbar">
+                <img src="images/logo.png" class="logo">
+                <nav>
+                    <ul id="menuList">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="games.html">Games</a></li>
+                        <li><a href="https://www.youtube.com/c/N1GHTW0RLD" target="_blank">Channel</a></li>
+                        <li><a href="https://www.youtube.com/c/N1GHTW0RLD" target="_blank">Subscribe</a></li>
+                    </ul>
+                </nav>
+                <img src="images/menu.png" class="menu-icon" onclick="togglemenu()">
+            </div>
+
+<div class="row">
+    <div class="col-1">
+        <h2><u>Virtuallity</u></h2>
+        <h2>MidnightGaming/N1GHT Official Website</h2>
+        <h3>Home</h3>
+        <button type="button"><a href="https://scratch.mit.edu/users/N1GHTW0RLD/" target="_blank">Check Out My Scratch Games</a><img src="images/arrow.png"></button>
+
+    </div>
+    <div class="col-2">
+        <img src="images/controller.png" class="controller">
+        <div class="color-box"></div>
+        <div class="addbtn">
+            <img src="images/add.png">
+            <p><small><a href="https://www.youtube.com/channel/UCYp7Tavsr-ZOWeJrBGzBosw" target="_blank">Gaming Channel</a></small></p>
+        </div>
+  </div>
+</div>
+
+
+</div>
+
+    </div>
+
+      <script>
+        var menuList = document.getElementById("menuList");
+
+        menuList.style.maxHeight = "0px";
+
+        function togglemenu(){
+           if(menuList.style.maxHeight == "0px")
+               {
+                   menuList.style.maxHeight = "130px";
+            
+                }
+                else
+                    {
+                   menuList.style.maxHeight = "0"
+                   }
+            }
+
+
+        </script>
+    
+    </body>
+    
+</html>
